@@ -24,7 +24,8 @@ ul.navbar-nav.mx-auto a:hover {
   width: 80%;
 }
 
-.intro-section h3 {
+.intro-section h3, 
+.jumbotron-heading {
   font-size: 32px;
   text-transform: capitalize;
   color: #00C871;
@@ -83,10 +84,24 @@ ul.navbar-nav.mx-auto a:hover {
   color: #00C871;
 }
 
+.latest-work h1 {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #eee;
+  padding-top: 2%;
+  width: 100%;
+  margin: 2% auto;
+  color: #00C871;
+}
+
 .swiper {
   max-width: 600px;
   height: 300px;
-  margin: 5% auto;
+  margin: 2% auto 5% auto;
 }
 
 .swiper-slide img {
@@ -109,7 +124,7 @@ span.swiper-pagination-bullet {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
+  bottom: 17%;
   right: 30px;
   z-index: 99;
   border: none;
@@ -135,6 +150,21 @@ footer ul li {
 footer ul {
   justify-content: end;
 }
+
+/* News Page */
+.btn-outline-secondary {
+  color: #00C871;
+  background-color: transparent;
+  border-color: #00C871;
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #00C871;
+  border-color: #00C871;
+}
+
+/* End News Page */
 
 @media only screen and (max-width: 992px) {
   .quick-access {
@@ -164,6 +194,12 @@ footer ul {
   footer ul {
     justify-content: center;
     margin: 10px 0;
+  }
+
+  #myBtn {
+    bottom: 16%;
+    right: 20px;
+    padding: 10px;
   }
 
   .news-intro .row {
