@@ -24,7 +24,7 @@ ul.navbar-nav.mx-auto a:hover {
   width: 80%;
 }
 
-.intro-section h3, 
+.intro-section h3,
 .jumbotron-heading {
   font-size: 32px;
   text-transform: capitalize;
@@ -197,7 +197,7 @@ footer ul {
   }
 
   #myBtn {
-    bottom: 16%;
+    bottom: 5%;
     right: 20px;
     padding: 10px;
   }
