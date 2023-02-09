@@ -164,8 +164,69 @@ footer ul {
   border-color: #00C871;
 }
 
+.blog-post img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
 /* End News Page */
 
+/* Staff Page */
+.errorMessage {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  color: red;
+  font-size: 30px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.staffTitle {
+  text-align: center;
+  margin: 50px;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #00C871;
+}
+
+#staff {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.staff-card {
+  width: 250px;
+  text-align: center;
+}
+/* End Staff Page */
+
+/* Contact Form */
+.form-container {
+  width: 40%;
+  margin: 5% auto;
+}
+
+.form-container h1 {
+  color: #00C871;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-group span {
+  color: red;
+}
+
+.contact-bg img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 0% 70%;
+}
+/* End Contact Form */
 @media only screen and (max-width: 992px) {
   .quick-access {
     margin-top: 20px;
@@ -209,5 +270,10 @@ footer ul {
 
   .news-intro img {
     margin-bottom: 20px;
+  }
+
+  .form-container {
+    width: 80%;
+    margin: 5% auto;
   }
 }
